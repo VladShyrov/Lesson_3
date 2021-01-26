@@ -1,0 +1,97 @@
+/* Стили обнуления */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+*/
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.header {
+  background-color: teal;
+  color: azure;
+}
+.menu {
+  background-color: rgb(107, 140, 184);
+}
+.one {
+  color: yellow;
+}
+.two {
+  color: violet;
+}
+.three {
+  color: teal;
+}
+.four {
+  color: blue;
+}
+.five {
+  color: crimson;
+}
+.six {
+  color: darkgreen;
+}
+.seven {
+  color: darkorange;
+}
+.eight {
+  color: darkviolet;
+}
+.nine {
+  color: darkgray;
+}
+.ten {
+  color: black;
+}
+.block {
+  color: chartreuse;
+  background-color: grey;
+}
+#title1 {
+  color: black;
+}
+.numeric {
+  color: black;
+}
+p {
+  color: cornsilk;
+}
+mark {
+  color: crimson;
+  background-color: cyan;
+}
+span {
+  color: yellow;
+}
+h1 {
+  color: black;
+}
+.footer {
+  background-color: black;
+}

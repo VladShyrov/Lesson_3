@@ -95,3 +95,42 @@ h1 {
 .footer {
   background-color: black;
 }
+.text {
+  background-color: crimson;
+}
+/* Обращаемся и к .pargraph и к .text__item */
+.paragraph,
+.text__item {
+  color: green;
+}
+/* Обращаемся и к .item и к .greentext */
+.item,
+.greentext {
+  color: darkblue;
+}
+/* Меняю цвет ссылки */
+.href {
+  color: white;
+}
+ol {
+  background-color: thistle;
+}
+li {
+  color: red;
+}
+/* Красит вложеность того же уровня */
+.list_text ~ li {
+  color: aquamarine;
+}
+/* Красит следуйщий объект */
+.list_item + li {
+  color: black;
+}
+/* Красит span в именно этого класса */
+.list_item > span {
+  color: blueviolet;
+}
+/* Принудительно красит класс */
+li.list__item {
+  color: brown;
+}
